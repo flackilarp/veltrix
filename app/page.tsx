@@ -13,7 +13,7 @@ const assets = [
 
 export default function Home() {
   const [tab, setTab] = useState("Overview");
-  const [plan, setPlan] = useState("Flexible");
+  const [, setPlan] = useState("Flexible");;
   return (
     <main>
       <header className="topbar">
